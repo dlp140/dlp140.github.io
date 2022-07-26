@@ -8,6 +8,9 @@ body {
   padding-top: 54px;
   color: #868e96;
 }
+.project-screen {
+  max-width: 90vw;
+}
 @media (min-width: 992px) {
   body {
     padding-top: 0;
@@ -57,6 +60,7 @@ h2 {
   font-weight: 600;
   text-transform: uppercase;
 }
+
 @media (min-width: 992px) {
   #sideNav {
     text-align: center;
@@ -95,6 +99,9 @@ h2 {
   #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
     display: block;
   }
+  .project-screen {
+    max-width: 100vw;
+  }
 }
 section.resume-section {
   border-bottom: 1px solid #dee2e6;
@@ -110,6 +117,9 @@ section.resume-section .resume-item .resume-date {
   }
   section.resume-section .resume-item .resume-date {
     min-width: 18rem;
+  }
+  .project-screen {
+    max-width: 25vw;
   }
 }
 @media (min-width: 992px) {
@@ -131,7 +141,4 @@ a:active,
 a:focus,
 a:hover {
   color: #824027;
-}
-.project-screen {
-  max-width: 25vw;
 }
